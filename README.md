@@ -1,6 +1,9 @@
 # Resistor-Live-Feed-Detection
 Designed to run on Raspberry Pi using the Pi camera 2.0. This project aims to be able to detect resistors in a camera live feed, calculate its value and display it through a transparent OLED display driven by an Arduino. The results from the project show that while it is possible to detect resistors, the accuracy at which the program is able to calculate its value can fluctuate wildly, due to the inherent issue of detecting specific colours without the test being in a controlled environment.
 
+
+My main input into this project stems from training the tflite graph, and writing/appending the files "ColourAnalyser.py", "Display.py", "object_detector.py" and "Display_Driver.INO". I do not claim to own any other work and have followed two guides listed below.
+
 ## Making use of these files
 To recreate this detection algorithm, I would recommend using the video below as a guide for configuring a Raspberry Pi with the correct environment.
 https://www.youtube.com/watch?v=aimSGOAUI8Y&ab_channel=EdjeElectronics
